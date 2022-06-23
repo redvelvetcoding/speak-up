@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(73, 26, 73);
+}
+
+/* navigation starts here*/
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color:#a577a7;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 40px;
+    background-color:#a577a7;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color: #a577a7;
+}
+
+.btn{
+    display: inline-block;
+    background-color:rgb(73, 26, 73);
+    border-radius: 10px;
+    padding: 20px;
+}
+/* navigation ends here*/
+
+/* contact starts here*/
+.don{
+    margin: 40px 0 0 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.us{
+    color: #ffffff;
+    font-weight: bold;
+    margin: 20px 0 0 30px;
+    font-size: 50px;
+}
+
+.red{
+    float: right;
+    margin:0 60px 0 0;
+}
+
+.form{
+    color: #ffffff;
+    margin:20px 0 0 30px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.sweet{
+    width: 500px;
+    height: 70px;
+    background-color: #ffffff;
+    border: #ffffff 1px solid;
+    border-radius: 5px;
+}
+
+.sweet2{
+    width: 500px;
+    height: 150px;
+    background-color: #ffffff;
+    border: #ffffff 1px solid;
+    border-radius: 10px;
+}
+/* contact ends here*/
+
+/* footer starts here*/
+.oi{
+    background-color:#a577a7;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.four{
+    color: #ffffff;
+    margin-left: 450px;
+}
+/* footer ends here*/
